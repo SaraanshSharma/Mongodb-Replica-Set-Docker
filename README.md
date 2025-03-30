@@ -18,7 +18,7 @@ This repository contains a Docker-based setup for running a MongoDB replica set 
 ### 1. Clone the Repository
 ```sh
 git clone https://github.com/SaraanshSharma/Mongodb-Replica-Set-Docker.git
-cd your-repo
+cd Mongodb-Replica-Set-Docker
 ```
 
 ### 2. Configure Environment Variables

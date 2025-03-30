@@ -44,7 +44,7 @@ Before running the setup, update the following in `docker-compose.yml`:
 ### 4. Start the Containers
 Run the following command to start the MongoDB replica set:
 ```sh
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 5. Verify the Replica Set
@@ -65,7 +65,7 @@ docker exec -it mongodb-1 mongosh -u root -p root --host localhost --port 27017 
 ## Stopping the Containers
 To stop the running containers, execute:
 ```sh
-docker-compose down
+docker compose down
 ```
 
 ## Notes
